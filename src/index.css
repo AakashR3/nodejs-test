@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.liststyle:hover {
+  /* Apply the hover styles from the styles.listStyleHover object */
+  color: yellow; /* Or any other hover styles you want */
+  /* Add other hover styles here as needed */
+}

@@ -15,8 +15,8 @@ const RSBar = () => {
        
     >
   
-  <img  style={{height: "273px", width: "440px"}} src='https://assets.ajio.com/medias/sys_master/root/20230519/u500/64677c2b42f9e729d79c0c05/-288Wx360H-466168870-red-MODEL.jpg' alt='Tshirt'/>
-  <img  style={{height: "273px", width: "440px"}} src='https://www.fashionbeans.com/wp-content/uploads/2023/02/lucafaloni_manleaningagaintsacar-696x422.jpg' alt='Tshirt'/>
+  <img  style={{height: "276px", width: "333px"}} src='https://image.made-in-china.com/2f0j00iLbqIEVosPct/ABC-Kids-Fashion-Design-Organic-Cotton-Baby-Dresses-Girls-1st-Birthday-Dress-for-Baby-Girl.webp' alt='Tshirt'/>
+  <img  style={{height: "273px", width: "333px"}} src='https://down-ph.img.susercontent.com/file/d3f5bbb56a3559fa6efd578bf3501b05' alt='Tshirt'/>
 
 </Stack>
  
