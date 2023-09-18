@@ -1,30 +1,20 @@
 import "./App.css";
-import Stack from "@mui/material/Stack";
-import RSBar from "./Components/RSBar";
-import Main from "./Components/Main";
-import { Box, Container } from "@mui/material";
-import Header from "./Components/Header";
-import TopHeader from "./Components/HeaderAsset.js/TopHeader";
-import BoxCard from "./Components/MainAssets.js/BoxCard";
-import Footer from "./Components/Footer";
-
+import Forms from "./Components/FormValidate/Forms";
+import { Route, Routes } from "react-router-dom";
+import AppLayout from "./Components/AppLayout";
+import Error404 from "./Components/Error404";
 
 function App() {
   return (
-   
-    <Box sx={{backgroundColor:"#ededed"}}>
-      <TopHeader/>
-      <Header />
-      <Container maxWidth="xl">
-        <Stack direction={"row"} spacing={2} justifyContent={"space-between"}>
-          <Main />
-          <RSBar />
-        </Stack>
-        <BoxCard/>
-      </Container>
-      <Footer/>
-    </Box>
-   
+    <>
+      
+      <Routes>
+        <Route path="/" element={<AppLayout />} />
+        <Route path="/contact" element={<Forms />} />
+        <Route path="/shop" element={<Error404 />} />
+        <Route path="/page" element={<Error404 />} />
+      </Routes>
+    </>
   );
 }
 

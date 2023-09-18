@@ -1,0 +1,87 @@
+{
+    "Products":
+      [
+        {
+            "url": "https://m.media-amazon.com/images/I/71if7aRX5US._SY575_.jpg",
+            "name": "Sports Shoes",
+            "stock": "100+ varients"
+        },
+        {
+            "url": "https://5.imimg.com/data5/DM/QL/FZ/SELLER-20490163/cap2.jpg",
+            "name": "Lux Look Cap",
+            "stock": "23+ varients"
+        },
+        {
+            "url": "https://m.media-amazon.com/images/I/71CMtFGDhxL.jpg",
+            "name": "UiniCon Watch",
+            "stock": "100+ varients"
+        },
+        {
+            "url": "https://rukminim2.flixcart.com/image/850/1000/khuvxjk0-0/sunglass/u/z/j/55-square-029-devew-original-imafxs4xjw7h9gr5.jpeg?q=20",
+            "name": "Sunset Chill Glasses",
+            "stock": "189+ varients"
+        },
+        {
+            "url":"https://m.media-amazon.com/images/I/71tQ5qlP53L._UY575_.jpg",
+            "name":"Wood Bracelet",
+            "stock":"19+ varients"
+        },
+        {
+            "url": "https://cdn.augrav.com/online/jewels/2019/04/12105331/Long-Inifitity-Couple-Rings3.jpg",
+            "name": "Vembley Rings",
+            "stock": "139+ varients"
+        },
+        {
+            "url": "https://cdn.shopclues.com/images/thumbnails/63815/320/320/167311490428095.jpg",
+            "name": "Leaf Footwear",
+            "stock": "91+ varients"
+        },
+        {
+            "url": "https://quickbutik.imgix.net/15595s/products/61c21a879e84f.jpeg",
+            "name": "Dark Blacky Pods",
+            "stock": "131+ varients"
+        },
+        {
+            "url":"https://www.bhphotovideo.com/images/images2500x2500/panasonic_dmc_zs60_s_lumix_dmc_zs60_digital_camera_1213208.jpg",
+            "name":"Warmly Camera",
+            "stock":"19+ varients"
+        },
+        {
+            "url": "https://www.amkette.com/cdn/shop/products/EvoFox-Phantom-Gaming-Mouse-Hero.png?v=1677494422",
+            "name": "FoxRed Mouse",
+            "stock": "189+ varients"
+        },
+        {
+            "url": "https://5.imimg.com/data5/QF/NQ/MV/SELLER-67203831/nokia-3310.jpg",
+            "name": "Red Magic 13.4",
+            "stock": "91+ varients"
+        },
+        {
+            "url": "https://www.jiomart.com/images/product/original/491570871/western-digital-1-5-tb-element-wdbu6y0015bbk-wesn-portable-hard-disk-drive-hdd-digital-o491570871-p590035057-2-202009260046.jpeg?im=Resize=(1000,1000)",
+            "name": "Disk Model Mars",
+            "stock": "18+ varients"
+        },
+        {
+            "url":"https://m.media-amazon.com/images/I/61ppT+ncE6L.jpg",
+            "name":"Gen-A1 Drive",
+            "stock":"116+ varients"
+        },
+        {
+            "url": "https://www.miamiherald.com/reviews/wp-content/uploads/2023/08/FineDine-Water-Bottle-with-Straw.png",
+            "name": "Glazzy Bottle",
+            "stock": "24+ varients"
+        },
+        {
+            "url": "https://contents.mediadecathlon.com/p754503/fbcee8b31f4e88a93c4271156a2fb9dc/p754503.jpg",
+            "name": "Donon Bag A2",
+            "stock": "189+ varients"
+        },
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh-V2C2h25kfvblwWDkEhn0adZfntcerKwvpriWfSV2nh9pnvf7lwJ4z-vA_56iSncIvk&usqp=CAU",
+            "name": "Glow Socket",
+            "stock": "18+ varients"
+        }
+        
+     ]
+     
+}

@@ -11,6 +11,9 @@ import React from "react";
 import MailIcon from '@mui/icons-material/Mail';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import Selection from "./HeaderAsset.js/Selection";
+import { Link } from "react-router-dom";
+
+
 
 const Header = () => {
  
@@ -28,16 +31,16 @@ const Header = () => {
           
           }}>
           <Selection />
-            <Typography variant="p" sx={{color: "#fdd336 "}}>Home</Typography>
+            <Typography variant="p" sx={{color: "#fdd336 "}}><Link to="/">Home</Link></Typography>
             <Typography variant="p" sx={{"&:hover":{
             color: "#fdd336 "
-          }}}>Shop</Typography>
+          }}}><Link to="/shop">Shop</Link></Typography>
             <Typography variant="p" sx={{"&:hover":{
             color: "#fdd336 "
-          }}}>Page</Typography>
+          }}}><Link to="/page">Page</Link></Typography>
             <Typography variant="p" sx={{"&:hover":{
             color: "#fdd336 "
-          }}}>Contact</Typography>
+          }}}><Link to="/contact">Contact</Link></Typography>
         </Box>
 
         <Box sx={{display:"flex", alignItems: "center", gap:3}}>

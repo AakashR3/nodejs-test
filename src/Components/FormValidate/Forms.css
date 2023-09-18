@@ -1,0 +1,36 @@
+
+.formbacks{
+    margin: 0;
+    padding: 0;
+    /* background-image: url('https://www.netsolutions.com/insights/wp-content/uploads/2021/05/form-design-best-practices-use-singles-column-form.jpg'); */
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 90vh;
+}
+.flexs{
+    display: flex;
+    flex-wrap: wrap;
+}
+.kolor{
+    background-color: #FDD336;
+    height: 90vh;
+}
+.alng {
+ display: flex;
+ flex-direction: row;
+ gap: 100px;
+ justify-content: space-around;
+ padding:40px;
+   
+}
+.alng1{
+    padding:40px;
+}
+
+.boxshadow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.error{
+    color: red;
+}
