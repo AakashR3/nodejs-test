@@ -6,7 +6,7 @@ import Main from "./Main";
 import RSBar from "./RSBar";
 import BoxCard from "./MainAssets.js/BoxCard";
 import Footer from "./Footer";
-import Error404 from "./Error404";
+
 
 
 const AppLayout = () => {

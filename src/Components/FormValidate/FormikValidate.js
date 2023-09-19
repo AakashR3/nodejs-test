@@ -42,7 +42,7 @@ const FormikValidate = () => {
             value={formik.values.firstName}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
-         
+            className='boxshadow'
           />
           {formik.touched.firstName && formik.errors.firstName ? (
             <div className='error'>{formik.errors.firstName}</div>
@@ -59,6 +59,7 @@ const FormikValidate = () => {
             value={formik.values.middleName}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
+            className='boxshadow'
           />
         </Grid>
 
@@ -72,6 +73,7 @@ const FormikValidate = () => {
             value={formik.values.lastName}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
+            className='boxshadow'
           />
           {formik.touched.lastName && formik.errors.lastName ? (
             <div className='error'>{formik.errors.lastName}</div>
@@ -88,6 +90,7 @@ const FormikValidate = () => {
             value={formik.values.email}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
+            className='boxshadow'
           />
           {formik.touched.email && formik.errors.email ? (
             <div className='error'>{formik.errors.email}</div>
@@ -106,13 +109,14 @@ const FormikValidate = () => {
             value={formik.values.message}
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
+            className='boxshadow'
           />
           {formik.touched.message && formik.errors.message ? (
             <div className='error'>{formik.errors.message}</div>
           ) : null}
         </Grid>
 
-        <Grid item xs={12}>
+        <Grid item xs={12} >
           <Button type="submit" variant="contained" color="primary">
             Submit
           </Button>

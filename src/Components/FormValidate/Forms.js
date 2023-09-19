@@ -17,7 +17,7 @@ const Forms = () => {
         </Grid>
         <Grid item xs={8}>
           <Box className="form-content" marginTop={8}>
-            <Typography variant="h4" fontFamily="sans-serif" fontWeight="bold" color="#3D464D">GET IN TOUCH WITH US</Typography>
+            <Typography variant="h4" fontFamily="sans-serif" fontWeight="bold" color="#3D464D" >GET IN TOUCH WITH US</Typography>
            <FormikValidate/>
           </Box>
         </Grid>
