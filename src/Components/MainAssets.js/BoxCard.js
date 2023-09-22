@@ -1,5 +1,6 @@
 import {
   Box,
+  Button,
   Divider,
   IconButton,
   Stack,
@@ -13,6 +14,7 @@ import SyncIcon from "@mui/icons-material/Sync";
 import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 import CardList from "./CardList";
 import axios from "axios";
+import UserList from "../../Saga-Redux/components/UserList";
 
 const BoxCard = () => {
   const [products, setProducts] = useState([]);
@@ -20,9 +22,9 @@ const BoxCard = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("http://localhost:3500/Products");
+        const response = await axios.get('http://localhost:3500/Products');
         setProducts(response.data);
-        console.log(response.data);
+
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -31,6 +33,8 @@ const BoxCard = () => {
     fetchData();
   }, []);
 
+ 
+ 
   return (
     <Box>
       <Box
@@ -188,6 +192,34 @@ const BoxCard = () => {
             ))}
           </Box>
         }
+      </Box>
+       <Box>
+      
+        <Divider
+          textAlign="left"
+          sx={{ fontWeight: "bold", fontSize: "40px", color: "#3d464d" }}
+        >
+         Future Products
+        </Divider>
+        {}
+      </Box>
+      <Box>
+        
+          <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-evenly",
+            flexWrap: "wrap",
+          }}
+          >
+       <UserList/>
+          </Box>
+        
+      </Box>
+      <Box sx={{display:"flex", justifyContent: 'flex-end', marginBottom: 2}}>
+      <Button variant="contained" >
+        Next
+      </Button>
       </Box>
     </Box>
   );

@@ -36,7 +36,7 @@ const Main = () => {
   >
     <img
       ref={imageRef}
-      style={{ height: '565px', width: '1110px', objectFit: 'cover' }}
+      style={{ height: '565px', width: '100%', objectFit: 'cover' }}
       src={images[currentImageIndex]}
       alt='Slideshow'
     />

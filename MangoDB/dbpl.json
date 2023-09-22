@@ -1,0 +1,46 @@
+{
+    "ProductLists":
+      [
+        {
+            "url": "https://www.ifbappliances.com/media/wysiwyg/senator_wss_steam_8.5kg_front_load_fv.png",
+            "name": "Washing Machine",
+            "stock": "10+ Colors"
+        },
+        {
+            "url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1692278339/Croma%20Assets/Large%20Appliances/Refrigerator/Images/270498_dwlq4s.png?tr=w-600",
+            "name": "Fridge Welly",
+            "stock": "20+ Colors"
+        },
+        {
+            "url": "https://darlingretail.com/cdn/shop/products/11_a65b5f40-50ee-48dd-91f4-9ef6a33d107b_600x.jpg?v=1636797319",
+            "name": "Wardrobe",
+            "stock": "4+ Colors"
+        },
+        {
+            "url": "https://5.imimg.com/data5/SELLER/Default/2021/1/XL/SC/DZ/101615148/aparnasonic-multimedia-home-theatre-tower-speaker-as-sound-blaster-500x500.jpg",
+            "name": "Home Theatre",
+            "stock": "10+ Colors"
+        },
+        {
+            "url": "https://blueberrysindia.com/wp-content/uploads/2022/03/1.png",
+            "name": "Table Fan",
+            "stock": "14+ Colors"
+        },
+        {
+            "url": "https://www.sowbaghya.com/image/cache/catalog/Fan/Tower%20Fan%20Red%20Fron-1-500x500.jpg",
+            "name": "Air Cooler",
+            "stock": "14+ Colors"
+        },
+        {
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa41qBdliTGeobmAvjv72UJhxO0mgOhVqPTg&usqp=CAU",
+            "name": "Chair XYLO",
+            "stock": "22+ Colors"
+        },
+        {
+            "url": "https://www.gauryog.in/image/cache/catalog/%20Voltas%20Plastic%20Pearl%20Water%20Dispenser%20(Black,%20Standard%20Size)%20_-643x640.jpg",
+            "name": "Wardrobe",
+            "stock": "23+ Colors"
+        }
+      
+     ]
+}
