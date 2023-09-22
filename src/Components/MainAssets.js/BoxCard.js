@@ -14,7 +14,7 @@ import SyncIcon from "@mui/icons-material/Sync";
 import AddIcCallIcon from "@mui/icons-material/AddIcCall";
 import CardList from "./CardList";
 import axios from "axios";
-import UserList from "../../Saga-Redux/components/UserList";
+import ProductList from "../../Saga-Redux/components/ProductList";
 
 const BoxCard = () => {
   const [products, setProducts] = useState([]);
@@ -212,7 +212,7 @@ const BoxCard = () => {
             flexWrap: "wrap",
           }}
           >
-       <UserList/>
+       <ProductList/>
           </Box>
         
       </Box>

@@ -2,17 +2,18 @@
 import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import Productlistdesign from '../../ProductListDesign';
-import { fetchUsersRequest } from '../actions/userActions';
+import { fetchProductListRequest } from '../actions/productActions';
                                                                                              
-const UserList = ({ users, fetchUsers }) => {
+const ProductList = ({ productlists, fetchProduct }) => {
   useEffect(() => {
-    fetchUsers();
-  }, [fetchUsers]);
+    fetchProduct();
+  }, [fetchProduct]);
 
-console.log(users, "Data")
+console.log(productlists, "Data")
+
   return (
     <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-evenly", columnGap: 50, rowGap: 40, padding: 30}}>
-    {users.map((productlist) => (
+    {productlists.map((productlist) => (
 
       <Productlistdesign  key={productlist.id}
               url={productlist.url}
@@ -24,11 +25,11 @@ console.log(users, "Data")
 };
 
 const mapStateToProps = (state) => ({
-  users: state.user.users,
+  productlists: state.productlist.productlists,
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  fetchUsers: () => dispatch(fetchUsersRequest()),
+  fetchProduct: () => dispatch(fetchProductListRequest()),
 });
 
-export default connect(mapStateToProps, mapDispatchToProps)(UserList);
+export default connect(mapStateToProps, mapDispatchToProps)(ProductList);

@@ -4,7 +4,7 @@ import "./Button.css";
 const RSBar = () => {
   const [showButton, setShowButton] = useState(false);
   const [showButton1, setShowButton1] = useState(false);
-  
+
   return (
     <Stack
       paddingTop={1.5}
@@ -14,7 +14,7 @@ const RSBar = () => {
       spacing={1.7}
       sx={{ backgroundColor: "#ededed" }}
     >
-       <div
+      <div
         style={{
           position: "relative",
           width: "333px",
@@ -23,19 +23,19 @@ const RSBar = () => {
         onMouseEnter={() => setShowButton1(true)}
         onMouseLeave={() => setShowButton1(false)}
       >
-      <img
-        style={{ height: "276px", width: "333px" }}
-        src="https://image.made-in-china.com/2f0j00iLbqIEVosPct/ABC-Kids-Fashion-Design-Organic-Cotton-Baby-Dresses-Girls-1st-Birthday-Dress-for-Baby-Girl.webp"
-        alt="Tshirt"
-      />
-       <div
+        <img
+          style={{ height: "276px", width: "333px" }}
+          src="https://image.made-in-china.com/2f0j00iLbqIEVosPct/ABC-Kids-Fashion-Design-Organic-Cotton-Baby-Dresses-Girls-1st-Birthday-Dress-for-Baby-Girl.webp"
+          alt="Tshirt"
+        />
+        <div
           style={{
             position: "absolute",
             top: 0,
             left: 0,
             width: "100%",
             height: "100%",
-            fontWeight: 'bold',
+            fontWeight: "bold",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -48,7 +48,9 @@ const RSBar = () => {
             fontFamily: "sans-serif",
           }}
         >
-          25% Offer for Kids
+          <div style={{ fontFamily: "Georgia", textAlign: "center" }}>
+            <h2 style={{ color: "white" }}>25% </h2> <p>Offer for Kids</p>
+          </div>
         </div>
         {showButton1 && (
           <button
@@ -61,10 +63,9 @@ const RSBar = () => {
               backgroundColor: "rgba(0, 0, 0, 0.5)",
               padding: "10px 20px",
               cursor: "pointer",
-             
             }}
           >
-            Add Cart
+            Learn More...
           </button>
         )}
       </div>
@@ -91,7 +92,7 @@ const RSBar = () => {
             width: "100%",
             height: "100%",
             display: "flex",
-            fontWeight: 'bold',
+            fontWeight: "bold",
             justifyContent: "center",
             alignItems: "center",
             backgroundColor: "rgba(0, 0, 0, 0.1)",
@@ -103,7 +104,9 @@ const RSBar = () => {
             fontFamily: "sans-serif",
           }}
         >
-          25% Offer for Womens
+           <div style={{ fontFamily: "Georgia", textAlign: "center" }}>
+            <h2 style={{ color: "white" }}>25% </h2> <p>Offer for Womens</p>
+          </div>
         </div>
         {showButton && (
           <button
@@ -118,7 +121,7 @@ const RSBar = () => {
               cursor: "pointer",
             }}
           >
-            Add Cart
+           Learn More...
           </button>
         )}
       </div>
