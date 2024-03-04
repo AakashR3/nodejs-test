@@ -8,7 +8,7 @@ spec:
   revisionHistoryLimit: 0
   selector:
     matchLabels:
-      app: igetitv2-learner-api-deployment
+      app: demo -test
   template:
     metadata:
       labels:
